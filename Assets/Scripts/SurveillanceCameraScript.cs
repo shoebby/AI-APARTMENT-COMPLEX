@@ -18,7 +18,7 @@ public class SurveillanceCameraScript : MonoBehaviour
     [SerializeField] private bool canZoom = false;
     [SerializeField] private Camera cam;
 
-    [SerializeField] private GameObject nextCam;
+    public GameObject nextCam;
     private GameObject PSXRenderer;
     private SpriteRenderer camOverlay;
 
